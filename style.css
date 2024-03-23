@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #141414;
+}
+
+/*Use 'margin: auto' for non flexbox/grid projects */
+
+
+/* Fits images in containers no matter the size */
+
+body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter';
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 327px;
+  height: 579px;
+  background-color: #1F1F1F;
+}
+
+img {
+  display: block;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 279px;
+  height: 289px;
+  background-color: #1F1F1F;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.buttons {
+  width: 279px;
+  height: 45px;
+  background-color: #333333;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  padding: 11.5px 0 11.5px 0;
+}
+
+/* FOOTER */
