@@ -87,7 +87,7 @@ a {
   width: 279px;
   height: 45px;
   background-color: #333333;
-  color: #FFFFFF;
+  color: #ffffffc7;
   border-radius: 8px;
   font-size: 14px;
   font-weight: 600;
@@ -95,7 +95,16 @@ a {
   padding: 15px 0 15px 0;
 }
 
-.location:hover {
+.attribution {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+/* Hover transitions */
+
+footer a {
   animation: smoothFill 5s ease-out 0s infinite both;
 }
 
@@ -106,45 +115,43 @@ a {
   border-radius: 28px;
 }
 
-/* Animation for location */
+/* Animation for footer */
 
 @keyframes smoothFill {
   00%,0%{
-    color: rgb(255,0,0);
+    color: #ff0000;
   }
   8%{
-    color: rgb(255,127,0);
+    color: #ff7f00;
   }
   16%{
-    color: rgb(255,255,0);
+    color: #ffff00;
   }
   25%{
-    color: rgb(127,255,0);
+    color: #7fff00;
   }
   33%{
-    color: rgb(0,255,0);
+    color: #00ff00;
   }
   41%{
-    color: rgb(0,255,127);
+    color: #00ff7f;
   }
   50%{
-    color: rgb(0,255,255);
+    color: #00ffff;
   }
   58%{
-    color: rgb(0,127,255);
+    color: #007fff;
   }
   66%{
-    color: rgb(0,0,255);
+    color: #0000ff;
   }
   75%{
-    color: rgb(127,0,255);
+    color: #7f00ff;
   }
   83%{
-    color: rgb(255,0,255);
+    color: #ff00ff;
   }
   91%{
-    color: rgb(255,0,127);
+    color: #ff007f;
   }
 }
-
-/* FOOTER */
