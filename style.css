@@ -29,6 +29,7 @@ body {
   width: 327px;
   height: 579px;
   background-color: #1F1F1F;
+  border-radius: 8px;
 }
 
 img {
@@ -36,8 +37,35 @@ img {
   width: 88px;
   height: 88px;
   border-radius: 50%;
-  max-width: 100%;
-  height: auto;
+  margin-top: 25px;
+}
+
+/* General Background color */
+
+.name, .location, .about {
+  background-color: #1F1F1F;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.location {
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #C4F82A;
+  margin-top: 12px;
+}
+
+.about {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 30px;
 }
 
 .btn-container {
@@ -46,6 +74,7 @@ img {
   justify-content: space-between;
   width: 279px;
   height: 289px;
+  margin-top: 25px;
   background-color: #1F1F1F;
 }
 
@@ -58,10 +87,64 @@ a {
   width: 279px;
   height: 45px;
   background-color: #333333;
-  color: white;
+  color: #FFFFFF;
   border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
   text-align: center;
-  padding: 11.5px 0 11.5px 0;
+  padding: 15px 0 15px 0;
+}
+
+.location:hover {
+  animation: smoothFill 5s ease-out 0s infinite both;
+}
+
+.buttons:hover {
+  background-color: #C4F82A;
+  color: #141414;
+  transition-duration: 1.5s;
+  border-radius: 28px;
+}
+
+/* Animation for location */
+
+@keyframes smoothFill {
+  00%,0%{
+    color: rgb(255,0,0);
+  }
+  8%{
+    color: rgb(255,127,0);
+  }
+  16%{
+    color: rgb(255,255,0);
+  }
+  25%{
+    color: rgb(127,255,0);
+  }
+  33%{
+    color: rgb(0,255,0);
+  }
+  41%{
+    color: rgb(0,255,127);
+  }
+  50%{
+    color: rgb(0,255,255);
+  }
+  58%{
+    color: rgb(0,127,255);
+  }
+  66%{
+    color: rgb(0,0,255);
+  }
+  75%{
+    color: rgb(127,0,255);
+  }
+  83%{
+    color: rgb(255,0,255);
+  }
+  91%{
+    color: rgb(255,0,127);
+  }
 }
 
 /* FOOTER */
