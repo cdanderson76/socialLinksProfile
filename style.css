@@ -28,6 +28,7 @@ body {
   align-items: center;
   width: 327px;
   height: 579px;
+  /* min-width: 20%; */
   background-color: #1F1F1F;
   border-radius: 8px;
 }
@@ -108,7 +109,6 @@ footer a {
   animation: smoothFill 5s ease-out 0s infinite both;
 }
 
-
 @keyframes smoothFill {
   00%,0%{
     color: #ff0000;
@@ -157,5 +157,10 @@ footer a {
     color: #141414;
     transition-duration: 1.5s;
     border-radius: 28px;
+  }
+
+  .profile-card {
+    width: 384px;
+    height: 611px;
   }
 };
