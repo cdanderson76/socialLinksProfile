@@ -104,6 +104,11 @@ a {
 
 /* Animation for footer */
 
+footer a {
+  animation: smoothFill 5s ease-out 0s infinite both;
+}
+
+
 @keyframes smoothFill {
   00%,0%{
     color: #ff0000;
@@ -146,10 +151,6 @@ a {
 @media( min-width: 480px ) {
 
   /* Hover transitions */
-
-  footer a {
-    animation: smoothFill 5s ease-out 0s infinite both;
-  }
 
   .buttons:hover {
     background-color: #C4F82A;
