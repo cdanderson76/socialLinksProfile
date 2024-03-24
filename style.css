@@ -28,7 +28,7 @@ body {
   align-items: center;
   width: 327px;
   height: 579px;
-  /* min-width: 20%; */
+  min-width: 20%;
   background-color: #1F1F1F;
   border-radius: 8px;
 }
