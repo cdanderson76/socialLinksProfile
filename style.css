@@ -28,7 +28,6 @@ body {
   align-items: center;
   width: 327px;
   height: 579px;
-  min-width: 20%;
   background-color: #1F1F1F;
   border-radius: 8px;
 }
@@ -161,6 +160,7 @@ footer a {
 
   .profile-card {
     width: 384px;
+    min-width: 20%;
     height: 611px;
   }
 };
