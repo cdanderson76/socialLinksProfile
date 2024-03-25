@@ -7,11 +7,6 @@
   background-color: #141414;
 }
 
-/*Use 'margin: auto' for non flexbox/grid projects */
-
-
-/* Fits images in containers no matter the size */
-
 body {
   display: flex;
   width: 100%;
@@ -26,10 +21,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 327px;
-  height: 579px;
+  width: 20.4375em;
+  height: 36.1875em;
   background-color: #1F1F1F;
-  border-radius: 8px;
+  border-radius: 0.5em;
 }
 
 img {
@@ -37,7 +32,7 @@ img {
   width: 88px;
   height: 88px;
   border-radius: 50%;
-  margin-top: 25px;
+  margin-top: 2.6em;
 }
 
 /* General Background color */
@@ -47,34 +42,34 @@ img {
 }
 
 .name {
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 500;
   color: #FFFFFF;
-  margin-top: 20px;
+  margin-top: 1.1em;
 }
 
 .location {
-  font-size: 13px;
+  font-size: 0.8125rem;
   letter-spacing: 0.5px;
   font-weight: 400;
   color: #C4F82A;
-  margin-top: 12px;
+  margin-top: 0.75em;
 }
 
 .about {
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 200;
-  margin-top: 30px;
+  margin-top: 1.875em;
 }
 
 .btn-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 279px;
-  height: 289px;
-  margin-top: 25px;
+  width: 17.4375em;
+  height: 18.0625em;
+  margin-top: 1.875em;
   background-color: #1F1F1F;
 }
 
@@ -88,16 +83,16 @@ a {
   height: 45px;
   background-color: #333333;
   color: #ffffffc7;
-  border-radius: 8px;
-  font-size: 14px;
+  border-radius: 0.5em;
+  font-size: 0.875rem;
   font-weight: 600;
   text-align: center;
-  padding: 15px 0 15px 0;
+  padding: 0.9375em 0 0.9375em 0;
 }
 
 .attribution {
-  margin-top: 30px;
-  font-size: 16px;
+  margin-top: 1.875em;
+  font-size: 1rem;
   font-weight: 400;
   color: #FFFFFF;
 }
@@ -155,11 +150,11 @@ footer a {
     background-color: #C4F82A;
     color: #141414;
     transition-duration: 1.5s;
-    border-radius: 28px;
+    border-radius: 1.75em;
   }
 
   .profile-card {
-    width: 384px;
-    height: 611px;
+    width: 24em;
+    height: 38.1875em;
   }
 };
