@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #141414;
+  background-color: #131313;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: 'Inter';
-  background-image: linear-gradient(to bottom, #598392, #486c7a, #375763, #27424d, #172e38, #102833, #09222d, #031c28, #022130, #012638, #002b40, #003049);
+  background-image: #313131;
 }
 
 .profile-card {
@@ -24,9 +24,9 @@ body {
   align-items: center;
   width: 20.4375em;
   height: 36.1875em;
-  background-color: #19232b;
+  background-color: #202020;
   border-radius: 0.5em;
-  border: 2px solid #ffffff18;
+  border: 2px solid #ffffff41;
 }
 
 img {
@@ -46,8 +46,9 @@ img {
 .name {
   font-size: 1.6rem;
   font-weight: 500;
-  color: #FFFFFF;
+  color: #ffffffc0;
   margin-top: 1.1em;
+  background-color: #202020;
 }
 
 .location {
@@ -55,6 +56,7 @@ img {
   letter-spacing: 0.5px;
   font-weight: 400;
   color: #C4F82A;
+  background-color: #202020;
   margin-top: 0.75em;
 }
 
@@ -63,6 +65,7 @@ img {
   font-size: 0.875rem;
   font-weight: 200;
   margin-top: 1.875em;
+  background-color: #202020;
 }
 
 .btn-container {
@@ -72,7 +75,7 @@ img {
   width: 17.4375em;
   height: 18.0625em;
   margin-top: 1.875em;
-  background-color: #19232b;
+  background-color: #202020;
 }
 
 a {
