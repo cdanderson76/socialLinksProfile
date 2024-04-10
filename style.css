@@ -8,7 +8,6 @@
 }
 
 body {
-  display: flex;
   width: 100%;
   height: 100vh;
   flex-direction: column;
@@ -19,7 +18,6 @@ body {
 }
 
 .profile-card {
-  display: flex;
   flex-direction: column;
   align-items: center;
   width: 20.4375em;
@@ -39,16 +37,23 @@ img {
 
 /* General Background color */
 
-.name, .location, .about {
-  background-color: #131313;
+.name, .location, .about, .btn-container {
+  background-color: #202020;
 }
 
+body, .profile-card, .btn-container {
+  display: flex;
+}
+
+a, .about, .attribution {
+  color: white;
+}
+ 
 .name {
   font-size: 1.6rem;
   font-weight: 500;
   color: #ffffffc0;
   margin-top: 1.1em;
-  background-color: #202020;
 }
 
 .location {
@@ -56,31 +61,25 @@ img {
   letter-spacing: 0.5px;
   font-weight: 400;
   color: #C4F82A;
-  background-color: #202020;
   margin-top: 0.75em;
 }
 
 .about {
-  color: #FFFFFF;
   font-size: 0.875rem;
   font-weight: 200;
   margin-top: 1.875em;
-  background-color: #202020;
 }
 
 .btn-container {
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 17.4375em;
   height: 18.0625em;
   margin-top: 1.875em;
-  background-color: #202020;
 }
 
 a {
   text-decoration: none;
-  color: white;
 }
 
 .buttons {
@@ -101,7 +100,6 @@ a {
   text-align: center;
   font-size: 1.2rem;
   font-weight: 400;
-  color: #FFFFFF;
 }
 
 .attribution, a {
@@ -166,6 +164,6 @@ footer a {
 
   .profile-card {
     width: 24em;
-    height: 38.1875em;
+    height: 38.188em;
   }
 };
