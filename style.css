@@ -35,15 +35,19 @@ img {
   margin-top: 2.6em;
 }
 
-/* General Background color */
+/* Grouped Background Colors */
 
 .name, .location, .about, .btn-container {
   background-color: #202020;
 }
 
+/* Flex Containers */
+
 body, .profile-card, .btn-container {
   display: flex;
 }
+
+/* Grouped Font Colors */
 
 a, .about, .attribution {
   color: white;
