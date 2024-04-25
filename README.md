@@ -1,5 +1,9 @@
 # socialLinksProfile
 This is my solution for the Frontend Mentor Social Links Profile Project:
+
+This is a small project in which I had built out a social link-sharing profile. I've personalized it to share all of my social profiles.  Clicking on any of the links will take you to the associated profile and social media app.
+
+
 ![SocialLinksProfileExample](https://github.com/cdanderson76/socialLinksProfile/assets/138369806/e14f8ce4-a222-4277-b28d-a1ce71455036)
 
 
