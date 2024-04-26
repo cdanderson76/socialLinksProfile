@@ -16,6 +16,6 @@ One challenge that I faced was trying to use a gradient for my profile card colo
 
 Another problem that I always tend to have in the beginning is centering the project on the page. I think I've gotten better with it, but it's always something that I get stuck on longer than I'd like. To overcome this, I usually just make the make the parent container a flex container, and center the content using the 'justify-content' and 'align-items' properties.
 
-<h2>What specific areas of your project would you like help with?<h2>
+<h2>What specific areas of your project would you like help with?</h2>
 
 I don't think that there is anything that I needed help with, but tips and comments are always useful. I don't think I had too many issues putting this project together, but feedback is always good...
